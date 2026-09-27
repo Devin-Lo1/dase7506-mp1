@@ -1,0 +1,11 @@
+{
+  "result": "exact tensor equality",
+  "tensors": 21,
+  "build_seconds": 7.558976333006285,
+  "refinement_seconds": 7.275488624989521,
+  "training_only": true,
+  "additional_gradient_targets": 0,
+  "note": "Post-freeze reproduction check only; no predictor changes.",
+  "assembled_state_tensor_equality": true,
+  "assembled_state_tensor_count": 70
+}

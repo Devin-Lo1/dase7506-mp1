@@ -1,0 +1,23 @@
+{
+  "neural_checkpoint": "runs/student-large-mps-b128-s17/checkpoint-step-1200.pt",
+  "neural_checkpoint_sha256": "69b0c9dd0574ee05d52cd45822e3db3dff602d14d125563649d8c71d9f5aba99",
+  "neural_steps": 1200,
+  "neural_train_targets": 39321600,
+  "training_source_sha256": "c58d555a94ada0882d1e8c0b3dc7ba68e1c269da5ad9e7a057300245d130c4e8",
+  "extra_training_targets_scanned": 3613342,
+  "entries": 1000000,
+  "dimension": 64,
+  "index": "IVF2048,PQ8x8",
+  "seed": 17,
+  "faiss_version": "1.15.1",
+  "source_sha256": "f13d743c886e9f2b76499ea2e39f0409bb32abc4472156d857c272c9c4cc0fc3",
+  "extraction_seconds": 687.4846071670181,
+  "total_seconds": 719.4578347500064,
+  "inference_asset_bytes": 18936567,
+  "asset_hashes": {
+    "projection.faiss": "3dcc838c82920493a396060ed19840c9c6debf7b6d0030661973f8ff22135794",
+    "index.faiss": "7971b3c3c63397ed65d379d57ce67414c5010a29e526479563c25e1979c219cb",
+    "values.npy": "1ea8136dc693db4c7c541455a50156ab08fe30a21ac19e65044a821a047badf8"
+  },
+  "note": "development/training-features.f16 is not needed for inference and must not be bundled."
+}

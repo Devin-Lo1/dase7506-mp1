@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-09-25T19:25:28.870873+00:00",
+  "protocol": "7506-mp1-wt2-v2",
+  "selected_on": "validation only",
+  "validation_bpb": 1.4217038295231355,
+  "source_checkpoint": "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/local-wide-joint/checkpoint.pt",
+  "checkpoint_sha256": "c3546391a7b8c2636de9fc0555faf3e614f454b2871ccfc5f7102770cb559069",
+  "training_updates": 1200,
+  "contract_checks": "passed",
+  "runtime_sha256": {
+    "student_local.py": "97fa6dd5e413d72980b1f3eb100b224e332c3a2563906c8b98d6da6ee850b7fb",
+    "requirements.txt": "901a883f6b85ac79faaac149808f5eee8ec0ed0c36482255304c0124700319af",
+    "hybrid.py": "d69e58403ff7ea28e3565a43b9e888b1869919776dfe5e299e323a5fccd3ffae",
+    "model.py": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+    "common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+    "context_cache.py": "33363159c26ee4d9bd014a97c63a3d3575b8a7d67c680003b9ba81b31503e8bb",
+    "measure_validation.py": "2b878795d7be216785076568b831c67a95d4f461b914ad774fd298f6e603e545",
+    "evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+    "student.py": "ecaf78d1f70ccaed8c6f7682c573a58acb37e1c40ed68cffe09c5e8e4142ac6c",
+    "data/tokenizer.json": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+    "data/wikitext_validation.txt": "714a24a5de7459876f7cfdc64837e551dd7cde2a51f95b763ee083fff273e307",
+    "data/manifest.json": "f4790bb599d9fcd04e48263e685335e2f62d9bca0324b08061a10c38984f4fe4",
+    "data/wikitext_test.txt": "aca2f46735043bcfd0a44eca981d04627b9cdf74c4c9a04bf0856d04066f58fc",
+    "data/wikitext_train.txt": "c58d555a94ada0882d1e8c0b3dc7ba68e1c269da5ad9e7a057300245d130c4e8"
+  },
+  "test_evaluated_before_freeze": false,
+  "policy": "No test-based tuning or predictor replacement after this freeze."
+}

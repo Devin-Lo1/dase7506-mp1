@@ -1,0 +1,440 @@
+{
+  "updated_utc": "2026-09-26T00:22:22.348793+00:00",
+  "completed_training_runs": [
+    {
+      "run": "runs/baseline",
+      "steps": null,
+      "targets": 9830400,
+      "training_seconds": 316.4346354579902,
+      "validation_bpb": 2.0710874333793914
+    },
+    {
+      "run": "runs/hash-mps-smoke",
+      "steps": 2,
+      "targets": 64,
+      "training_seconds": 1.3119420830043964,
+      "validation_bpb": null
+    },
+    {
+      "run": "runs/hash-mps-smoke-initial-success",
+      "steps": 2,
+      "targets": 64,
+      "training_seconds": 1.489818166999612,
+      "validation_bpb": null
+    },
+    {
+      "run": "runs/local-mps-smoke",
+      "steps": 2,
+      "targets": 4096,
+      "training_seconds": 9.6927852499648,
+      "validation_bpb": 3.4168801328730654
+    },
+    {
+      "run": "runs/muon-mps-smoke",
+      "steps": 2,
+      "targets": 16384,
+      "training_seconds": 5.714194374973886,
+      "validation_bpb": 3.6198572089314793
+    },
+    {
+      "run": "runs/smoke",
+      "steps": null,
+      "targets": 81920,
+      "training_seconds": 2.72841941700608,
+      "validation_bpb": 3.5798219683823453
+    },
+    {
+      "run": "runs/student-hash-b512-s17",
+      "steps": 1200,
+      "targets": 157286400,
+      "training_seconds": 4913.863225835026,
+      "validation_bpb": 1.6743615844931645
+    },
+    {
+      "run": "runs/student-large-mps-b128-s17",
+      "steps": 1200,
+      "targets": 39321600,
+      "training_seconds": 2492.7606036270154,
+      "validation_bpb": 1.609495166620732
+    },
+    {
+      "run": "runs/student-local-muon-b256-s17",
+      "steps": 1200,
+      "targets": 78643200,
+      "training_seconds": 4299.903776708001,
+      "validation_bpb": 1.4969748379611325
+    },
+    {
+      "run": "runs/student-local-wide-b512-s17",
+      "steps": 1200,
+      "targets": 157286400,
+      "training_seconds": 8948.829942543001,
+      "validation_bpb": 1.488248127780812
+    },
+    {
+      "run": "runs/student-muon-reg-b128-s17",
+      "steps": 1200,
+      "targets": 39321600,
+      "training_seconds": 2192.592084123986,
+      "validation_bpb": 1.5425154227565254
+    },
+    {
+      "run": "runs/student-muon-reg-b256-s17",
+      "steps": 1200,
+      "targets": 78643200,
+      "training_seconds": 4236.240319206903,
+      "validation_bpb": 1.5259379977464231
+    },
+    {
+      "run": "runs/student-rope-s17",
+      "steps": 2400,
+      "targets": 19660800,
+      "training_seconds": 944.8261556230136,
+      "validation_bpb": 1.6891021445028995
+    }
+  ],
+  "validation_searches": [
+    {
+      "run": "runs/local-wide-joint",
+      "validation_bpb": 1.4217036444342634,
+      "search_seconds": 125.82747004198609,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/development-selection/local-wide-b512-average",
+      "validation_bpb": 1.4242497677357142,
+      "search_seconds": 51.3059663749882,
+      "contract_checks": null
+    },
+    {
+      "run": "runs/pipeline-local-wide-b512/adaptive",
+      "validation_bpb": 1.4243761538350534,
+      "search_seconds": 19.00592324999161,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-local-wide-b512/order-copy",
+      "validation_bpb": 1.4292157842540465,
+      "search_seconds": 18.471460125001613,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-local-wide-b512/cache",
+      "validation_bpb": 1.4322287249697967,
+      "search_seconds": 18.200898958020844,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/local-average-search",
+      "validation_bpb": 1.445907272519332,
+      "search_seconds": 63.98998162499629,
+      "contract_checks": null
+    },
+    {
+      "run": "runs/local-full-counts-adaptive",
+      "validation_bpb": 1.4461431220961647,
+      "search_seconds": 18.52639395801816,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-local-muon-b256/adaptive",
+      "validation_bpb": 1.447069385972677,
+      "search_seconds": 30.98237954202341,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-local-muon-b256/order-copy",
+      "validation_bpb": 1.4493344143836102,
+      "search_seconds": 30.573370874975808,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-local-muon-b256/cache",
+      "validation_bpb": 1.452931627784003,
+      "search_seconds": 30.863884625025094,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-muon-b256/adaptive",
+      "validation_bpb": 1.4640798937170192,
+      "search_seconds": 28.53083266597241,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-muon-b256/order-copy",
+      "validation_bpb": 1.467065791632857,
+      "search_seconds": 28.073311374988407,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-muon-b256/cache",
+      "validation_bpb": 1.4750235862524637,
+      "search_seconds": 27.793779290979728,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-full-trigram-adaptive-muon-1200",
+      "validation_bpb": 1.4771863537432741,
+      "search_seconds": 207.8798796670162,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-adaptive-muon-1200",
+      "validation_bpb": 1.482911545491747,
+      "search_seconds": 124.57443600002443,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-order-copy-muon-1200",
+      "validation_bpb": 1.4871831058016491,
+      "search_seconds": 130.16398091602605,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-copy-muon-1200",
+      "validation_bpb": 1.4875922270912192,
+      "search_seconds": 153.97436091699637,
+      "contract_checks": "passed on repeated sequences"
+    },
+    {
+      "run": "runs/hybrid-muon-1200",
+      "validation_bpb": 1.4958543923432706,
+      "search_seconds": 66.57070341601502,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-muon-average",
+      "validation_bpb": 1.498920363468764,
+      "search_seconds": 144.9342008329695,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/knn-adam-large-1200",
+      "validation_bpb": 1.5045843105000383,
+      "search_seconds": 125.51808087498648,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-adaptive-large-1200",
+      "validation_bpb": 1.5069487370575219,
+      "search_seconds": 115.06462079199264,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-copy-large-1200",
+      "validation_bpb": 1.5085908380783437,
+      "search_seconds": 30.675330374971963,
+      "contract_checks": "passed on repeated sequences"
+    },
+    {
+      "run": "runs/development-selection/hash-b512-average",
+      "validation_bpb": 1.5092717830530322,
+      "search_seconds": 48.900681250030175,
+      "contract_checks": null
+    },
+    {
+      "run": "runs/pipeline-hash-b512/adaptive",
+      "validation_bpb": 1.5101737840826603,
+      "search_seconds": 21.556067665980663,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-hash-b512/order-copy",
+      "validation_bpb": 1.5211990993083544,
+      "search_seconds": 21.02058837498771,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-large-1200",
+      "validation_bpb": 1.5212233672797544,
+      "search_seconds": 43.01138766697841,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/pipeline-hash-b512/cache",
+      "validation_bpb": 1.5283996468255818,
+      "search_seconds": 21.493794916023035,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-copy-large-300",
+      "validation_bpb": 1.6035273586994456,
+      "search_seconds": 109.17217816598713,
+      "contract_checks": "passed on repeated sequences"
+    },
+    {
+      "run": "runs/hybrid-copy-small-1200",
+      "validation_bpb": 1.6056406817377313,
+      "search_seconds": 65.74207224999554,
+      "contract_checks": "passed on repeated sequences"
+    },
+    {
+      "run": "runs/hybrid-large-300",
+      "validation_bpb": 1.6147063343428758,
+      "search_seconds": 111.87877237499924,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-cache-small-1200",
+      "validation_bpb": 1.617069609442742,
+      "search_seconds": 33.53674716700334,
+      "contract_checks": "passed"
+    },
+    {
+      "run": "runs/hybrid-small-1200",
+      "validation_bpb": 1.6657008523564307,
+      "search_seconds": 32.789461291977204,
+      "contract_checks": "passed"
+    }
+  ],
+  "fixed_scorer_validation": [
+    {
+      "result": "runs/local-wide-joint/validation_cpu_fp32.json",
+      "validation_bpb": 1.4217038295231355,
+      "checkpoint_sha256": "c3546391a7b8c2636de9fc0555faf3e614f454b2871ccfc5f7102770cb559069"
+    },
+    {
+      "result": "runs/development-selection/local-wide-b512-average/early-0.25/validation_cpu_fp32.json",
+      "validation_bpb": 1.4242497677357142,
+      "checkpoint_sha256": "269870504ebf8bcbb20cb7527d599778458baad4419c6ee6df7cdeb0192bef96"
+    },
+    {
+      "result": "runs/pipeline-local-wide-b512/validation_cpu_fp32.json",
+      "validation_bpb": 1.4243763294422123,
+      "checkpoint_sha256": "9034340193823e11424b8e60ab1363f6a03238fe97cb046265d55496dbea1777"
+    },
+    {
+      "result": "runs/final-ablations/without_continuous_cache/validation_cpu_fp32.json",
+      "validation_bpb": 1.424676534127977,
+      "checkpoint_sha256": "02b71fffce92608cedeaf486c3076b958d8680708d5a30e8d62e7fba192efaa1"
+    },
+    {
+      "result": "runs/development-selection/local-wide-b512-average/early-0.5/validation_cpu_fp32.json",
+      "validation_bpb": 1.4251209384899501,
+      "checkpoint_sha256": "5a6cee3a41c47727ef0c5f3f9669e67da2543b13f8998f365d45f339444ac2e1"
+    },
+    {
+      "result": "runs/final-ablations/without_suffix_copy/validation_cpu_fp32.json",
+      "validation_bpb": 1.4265952678367337,
+      "checkpoint_sha256": "4927340efc78e98daf016971f24c81a67afcbfa3aa6e4c3e36c5d41a82b0ce91"
+    },
+    {
+      "result": "runs/final-ablations/without_counts/validation_cpu_fp32.json",
+      "validation_bpb": 1.4364409113248198,
+      "checkpoint_sha256": "6e4efb588f6b34d020be4046e83fb68998571b9683a74eee22b9e9d3f39ba2cd"
+    },
+    {
+      "result": "runs/local-average-full-counts/validation_cpu_fp32.json",
+      "validation_bpb": 1.4449589834512648,
+      "checkpoint_sha256": "9bf688e75f04999f90de6475db1571783445d7dcaa0d327f152f6ea278f97f96"
+    },
+    {
+      "result": "runs/local-average-search/early-0.25/validation_cpu_fp32.json",
+      "validation_bpb": 1.445907272519332,
+      "checkpoint_sha256": "c63b21653211b392310896736cc3f79c6a2b0e8867b3871eb2ff39e38ff79f6e"
+    },
+    {
+      "result": "runs/pipeline-local-muon-b256/validation_cpu_fp32.json",
+      "validation_bpb": 1.4470695440953276,
+      "checkpoint_sha256": "bc0df788a76434cea3d3cb62239fa9ff3b619af46fb2530ac04a53e28cd2bb22"
+    },
+    {
+      "result": "runs/local-average-search/early-0.5/validation_cpu_fp32.json",
+      "validation_bpb": 1.4472405850826104,
+      "checkpoint_sha256": "28762cd993d0c49277c8cf2e35389cd14889dd596d5dc690699379c96e76731a"
+    },
+    {
+      "result": "runs/final-ablations/calibrated_neural_only/validation_cpu_fp32.json",
+      "validation_bpb": 1.44897531774374,
+      "checkpoint_sha256": "3124e406657c1d0f6d65437df526f5cfabd016f0bfbc117c947cd322e4cf7e11"
+    },
+    {
+      "result": "runs/pipeline-muon-b256/validation_cpu_fp32.json",
+      "validation_bpb": 1.464080025399067,
+      "checkpoint_sha256": "c1016f3ab2eef912378b17364d5b445223c6313543a3c3015ac477d9d65f66a4"
+    },
+    {
+      "result": "runs/hybrid-full-trigram-adaptive-muon-1200/validation_cpu_fp32.json",
+      "validation_bpb": 1.4771864350661903,
+      "checkpoint_sha256": "f84b7f8b685c62cb030658d17aa1ae322f10d3110bd7d2cd72c194263a03c1db"
+    },
+    {
+      "result": "runs/hybrid-adaptive-muon-1200/validation_cpu_fp32.json",
+      "validation_bpb": 1.4829116269592175,
+      "checkpoint_sha256": "5138f5273e04816668dea5b13acf2aec06a1f5f5b59e6245a7708a8887d8dcb0"
+    },
+    {
+      "result": "runs/development-selection/hash-b512-average/early-0.5/validation_cpu_fp32.json",
+      "validation_bpb": 1.5092717830530322,
+      "checkpoint_sha256": "bb1a23665752a5c7e69feb5663546c0dc8243098d3d4bcc39ad428f5a574df21"
+    },
+    {
+      "result": "runs/development-selection/hash-b512-average/early-0.25/validation_cpu_fp32.json",
+      "validation_bpb": 1.5092893967294803,
+      "checkpoint_sha256": "bf3ee0dc92b918fea7d6711d6881fb1ab4239025fdf1cff0fec455ff5cd81e93"
+    },
+    {
+      "result": "runs/pipeline-hash-b512/validation_cpu_fp32.json",
+      "validation_bpb": 1.5101738982494575,
+      "checkpoint_sha256": "a538a3a0707c55f5c108806c0fd517db22bf755f4e8e5a03e19929abe8189b67"
+    },
+    {
+      "result": "runs/adam-average-900-1200/validation_cpu_fp32.json",
+      "validation_bpb": 1.6037536313986056,
+      "checkpoint_sha256": "3f6ef5ae271ada6c2696e17d57d2f02787e70c21ae1efb92ad3cd33a6488d86f"
+    },
+    {
+      "result": "runs/hybrid-copy-small-1200/validation_cpu_fp32.json",
+      "validation_bpb": 1.6056406817886764,
+      "checkpoint_sha256": "6fa2a1db3a2359fa358a1fcfe142887ef7c7e89b5eadcdf72dd2f9c94b66a684"
+    },
+    {
+      "result": "runs/hybrid-cache-small-1200/validation_cpu_fp32.json",
+      "validation_bpb": 1.6170696065312926,
+      "checkpoint_sha256": "4d42da76daee380127749fac4dbeb4ff75d4c1e3bdd64ad1673e09e18ef5f3b4"
+    },
+    {
+      "result": "runs/student-local-wide-b512-s17/equal_targets_validation_cpu_fp32.json",
+      "validation_bpb": 2.0261288082118254,
+      "checkpoint_sha256": "45b4f7073e839ce975765170d96fa0a7a8936541b86d60ba2715c05bae45c829"
+    },
+    {
+      "result": "runs/smoke/validation_cpu_fp32.json",
+      "validation_bpb": 3.5798219683823453,
+      "checkpoint_sha256": "3d01a051e2db1a90ca60929d6fc5f76ae8dd266cc1d2cb4fbbb964c560b0e29d"
+    }
+  ],
+  "aborted_runs": [
+    {
+      "file": "runs/hash-mps-smoke-failed/aborted.json",
+      "details": {
+        "status": "failed",
+        "steps": 2,
+        "train_tokens": 64,
+        "train_seconds": null,
+        "checkpoint_exported": false,
+        "reason": "CPU/MPS integer remainder disagreed by one for 11/34 prefix hashes; rejected before any full training."
+      }
+    },
+    {
+      "file": "runs/student-large-b128-s17/aborted.json",
+      "details": {
+        "status": "interrupted_before_first_100_update_log",
+        "reason": "large batch caused memory pressure and swapping",
+        "elapsed_seconds_approx": 450,
+        "exact_completed_steps": "unknown, fewer than 100",
+        "checkpoint_saved": false,
+        "restart": "microbatch 32 with 4 accumulation steps"
+      }
+    }
+  ],
+  "completed_gradient_training_targets": 580096128,
+  "sum_completed_training_seconds": 28366.387902416885,
+  "sum_recorded_validation_search_seconds": 2100.602997621929,
+  "limitations": [
+    "Pending runs are excluded until their metrics.json exists.",
+    "Summed durations are process durations, not elapsed project wall time.",
+    "Count construction and kNN build costs are separate; see asset metadata.",
+    "A validation score alone does not certify resource limits or a test score."
+  ]
+}

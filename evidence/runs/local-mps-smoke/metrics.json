@@ -1,0 +1,68 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student_local",
+  "config": {
+    "vocab": 2048,
+    "width": 256,
+    "heads": 4,
+    "depth": 8,
+    "context": 256,
+    "dropout": 0.15,
+    "embedding_dropout": 0.1,
+    "attention_dropout": 0.05,
+    "positional_encoding": "rotary",
+    "local_kernel": 3
+  },
+  "seed": 17,
+  "parameters": 6973952,
+  "precision": "bf16",
+  "steps": 2,
+  "batch_size": 8,
+  "schedule_steps": 2,
+  "accumulation_steps": 1,
+  "effective_batch_size": 8,
+  "learning_rate": 0.003,
+  "warmup_steps": 1,
+  "weight_decay": 0.3,
+  "decay_matrices_only": false,
+  "optimizer": "muon",
+  "best_validation_bpb": 3.4168801328730654,
+  "best_step": 2,
+  "trainer_sha256": "f0c4b2205b52158f3a0641d70b137a2d9e9d7b948134b8d612b4e3a94f0344a5",
+  "train_tokens": 4096,
+  "preparation_seconds": 15.820937458018307,
+  "train_seconds": 9.6927852499648,
+  "validation": {
+    "bpb": 3.4168801328730654,
+    "token_ppl": 1366.1115752346361,
+    "nll_nats": 2718940.7321190834,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 99.4845046250266
+  },
+  "history": [
+    {
+      "step": 1,
+      "loss": 7.675426483154297,
+      "seconds": 9.315826707985252
+    },
+    {
+      "step": 2,
+      "loss": 7.561206340789795,
+      "seconds": 9.671329542004969
+    }
+  ],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 125.96064508298878,
+  "torch_version": "2.7.1",
+  "threads": 4,
+  "checkpoint_sha256": "84be4c4253eabb1aa73384a3d14e17911a3c9ab512bff7a867642743b29c5d37",
+  "implementation_sha256": "19aab7e1316bd0c4b748f409ebb3f53b17ec7f42c03e06bcf60703cd00f9c5d9",
+  "device": "mps",
+  "device_name": "Apple GPU (MPS)",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0,
+  "validation_device": "cpu",
+  "mps_current_allocated_gb": 0.18529408
+}

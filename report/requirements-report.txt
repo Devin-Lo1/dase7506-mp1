@@ -1,0 +1,2 @@
+reportlab==5.0.1
+pymupdf==1.28.2

@@ -1,0 +1,1 @@
+{"vocab":2048,"width":384,"heads":6,"depth":4,"context":256,"dropout":0.2,"embedding_dropout":0.15,"attention_dropout":0.05,"positional_encoding":"rotary","local_kernel":3,"hash_buckets":32768,"hash_width":32}

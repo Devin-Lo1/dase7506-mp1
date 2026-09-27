@@ -1,0 +1,91 @@
+{
+  "status": "completed",
+  "previous_pipeline": "runs/pipeline-local-muon-b256/pipeline.json",
+  "stages": [
+    {
+      "name": "prototype-resources",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/wide-local-followup/prototype.pt",
+        "--output-dir",
+        "runs/wide-local-followup/prototype-resources"
+      ],
+      "exit_code": 0,
+      "seconds": 81.85778058302822,
+      "log": "runs/wide-local-followup/prototype-resources.log"
+    },
+    {
+      "name": "training",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "train.py",
+        "--implementation",
+        "student_local",
+        "--config",
+        "configs/student_local_wide.json",
+        "--device",
+        "mps",
+        "--precision",
+        "bf16",
+        "--threads",
+        "4",
+        "--seed",
+        "17",
+        "--steps",
+        "1200",
+        "--batch-size",
+        "64",
+        "--accumulation-steps",
+        "8",
+        "--learning-rate",
+        "0.004",
+        "--min-lr-ratio",
+        "0.0",
+        "--warmup-steps",
+        "60",
+        "--optimizer",
+        "muon",
+        "--weight-decay",
+        "0.3",
+        "--log-every",
+        "25",
+        "--eval-every",
+        "300",
+        "--run-dir",
+        "runs/student-local-wide-b512-s17"
+      ],
+      "exit_code": 0,
+      "seconds": 9031.976215915987,
+      "log": "runs/wide-local-followup/training.log"
+    },
+    {
+      "name": "selection",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "finish_candidate.py",
+        "--training-dir",
+        "runs/student-local-wide-b512-s17",
+        "--output-dir",
+        "runs/pipeline-local-wide-b512",
+        "--counts",
+        "runs/ngram/train-kn5-full-trigram-packed.pt",
+        "--measure-resources"
+      ],
+      "exit_code": 0,
+      "seconds": 158.95567975001177,
+      "log": "runs/wide-local-followup/selection.log"
+    },
+    {
+      "name": "inventory",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "collect_experiments.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.04045520897489041,
+      "log": "runs/wide-local-followup/inventory.log"
+    }
+  ]
+}

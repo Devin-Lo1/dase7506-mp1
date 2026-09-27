@@ -1,0 +1,165 @@
+{
+  "vocab": 2048,
+  "context": 256,
+  "neural_config": {
+    "vocab": 2048,
+    "width": 384,
+    "heads": 6,
+    "depth": 5,
+    "context": 256,
+    "dropout": 0.2,
+    "embedding_dropout": 0.1,
+    "attention_dropout": 0.05,
+    "positional_encoding": "rotary",
+    "local_kernel": 3
+  },
+  "neural_implementation": "student_local",
+  "ngram_shapes": {
+    "unigram": {
+      "shape": [
+        2048
+      ],
+      "dtype": "float32"
+    },
+    "n2_keys": {
+      "shape": [
+        1964
+      ],
+      "dtype": "int16"
+    },
+    "n2_ptr": {
+      "shape": [
+        1965
+      ],
+      "dtype": "int32"
+    },
+    "n2_tokens": {
+      "shape": [
+        298024
+      ],
+      "dtype": "int16"
+    },
+    "n2_counts": {
+      "shape": [
+        298024
+      ],
+      "dtype": "float32"
+    },
+    "n2_totals": {
+      "shape": [
+        1964
+      ],
+      "dtype": "float32"
+    },
+    "n3_keys": {
+      "shape": [
+        298024
+      ],
+      "dtype": "int32"
+    },
+    "n3_ptr": {
+      "shape": [
+        298025
+      ],
+      "dtype": "int32"
+    },
+    "n3_tokens": {
+      "shape": [
+        1391944
+      ],
+      "dtype": "int16"
+    },
+    "n3_counts": {
+      "shape": [
+        1391944
+      ],
+      "dtype": "float32"
+    },
+    "n3_totals": {
+      "shape": [
+        298024
+      ],
+      "dtype": "float32"
+    },
+    "n4_keys": {
+      "shape": [
+        148128
+      ],
+      "dtype": "int64"
+    },
+    "n4_ptr": {
+      "shape": [
+        148129
+      ],
+      "dtype": "int32"
+    },
+    "n4_tokens": {
+      "shape": [
+        238691
+      ],
+      "dtype": "int16"
+    },
+    "n4_counts": {
+      "shape": [
+        238691
+      ],
+      "dtype": "float32"
+    },
+    "n4_totals": {
+      "shape": [
+        148128
+      ],
+      "dtype": "float32"
+    },
+    "n5_keys": {
+      "shape": [
+        222244
+      ],
+      "dtype": "int64"
+    },
+    "n5_ptr": {
+      "shape": [
+        222245
+      ],
+      "dtype": "int32"
+    },
+    "n5_tokens": {
+      "shape": [
+        270363
+      ],
+      "dtype": "int16"
+    },
+    "n5_counts": {
+      "shape": [
+        270363
+      ],
+      "dtype": "float32"
+    },
+    "n5_totals": {
+      "shape": [
+        222244
+      ],
+      "dtype": "float32"
+    }
+  },
+  "mixture_weight": 1.0,
+  "discount": 0.5,
+  "max_order": 5,
+  "cache_weight": 0.025,
+  "cache_theta": 10.0,
+  "temperature": 1.2,
+  "copy_weight": 0.0,
+  "copy_order_weights": [
+    0.0,
+    0.0,
+    0.1,
+    0.2,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "count_weight_low": 0.1,
+  "count_weight_high": 0.3,
+  "count_confidence_power": 2.0,
+  "adaptive_count": true
+}

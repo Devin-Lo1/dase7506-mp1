@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "steps": 2,
+  "train_tokens": 64,
+  "train_seconds": null,
+  "checkpoint_exported": false,
+  "reason": "CPU/MPS integer remainder disagreed by one for 11/34 prefix hashes; rejected before any full training."
+}

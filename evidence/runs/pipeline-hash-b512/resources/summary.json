@@ -1,0 +1,164 @@
+{
+  "split": "validation",
+  "precision": "fp32",
+  "threads": 4,
+  "runs": {
+    "baseline": [
+      {
+        "seconds": 4.9432842080132104,
+        "bpb": 2.0710874333793914,
+        "peak_rss_bytes": 2122285056,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-hash-b512/resources/baseline-1.json"
+        ]
+      },
+      {
+        "seconds": 5.047109791019466,
+        "bpb": 2.0710874333793914,
+        "peak_rss_bytes": 2122317824,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-hash-b512/resources/baseline-2.json"
+        ]
+      },
+      {
+        "seconds": 5.171582665992901,
+        "bpb": 2.0710874333793914,
+        "peak_rss_bytes": 2122334208,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-hash-b512/resources/baseline-3.json"
+        ]
+      }
+    ],
+    "candidate": [
+      {
+        "seconds": 20.246921040990856,
+        "bpb": 1.5101738982494575,
+        "peak_rss_bytes": 2739388416,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/pipeline-hash-b512/adaptive/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-hash-b512/resources/candidate-1.json"
+        ]
+      },
+      {
+        "seconds": 20.55913245800184,
+        "bpb": 1.5101738982494575,
+        "peak_rss_bytes": 2739994624,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/pipeline-hash-b512/adaptive/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-hash-b512/resources/candidate-2.json"
+        ]
+      },
+      {
+        "seconds": 20.863453416968696,
+        "bpb": 1.5101738982494575,
+        "peak_rss_bytes": 2660597760,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/pipeline-hash-b512/adaptive/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-hash-b512/resources/candidate-3.json"
+        ]
+      }
+    ]
+  },
+  "median_time_ratio": 4.073446647541444,
+  "candidate_peak_rss_gib": 2.55181884765625,
+  "model_assets_mib": 59.893879890441895,
+  "model_assets": [
+    "runs/pipeline-hash-b512/adaptive/checkpoint.pt",
+    "student.py",
+    "common.py",
+    "evaluate.py",
+    "student_local.py",
+    "student_hash.py",
+    "hybrid.py",
+    "context_cache.py"
+  ],
+  "note": "Development validation check only; final full-test measurement remains required.",
+  "development_limits_pass": true
+}

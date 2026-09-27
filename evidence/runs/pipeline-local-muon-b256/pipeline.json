@@ -1,0 +1,93 @@
+{
+  "training_dir": "runs/student-local-muon-b256-s17",
+  "training_steps": 1200,
+  "training_targets": 78643200,
+  "stages": [
+    {
+      "name": "cache",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_cache.py",
+        "--neural",
+        "runs/student-local-muon-b256-s17/checkpoint-step-1200.pt",
+        "--counts",
+        "runs/ngram/train-kn5-full-trigram-packed.pt",
+        "--output-dir",
+        "runs/pipeline-local-muon-b256/cache"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 32.13280933297938,
+      "log": "runs/pipeline-local-muon-b256/cache.log"
+    },
+    {
+      "name": "order-copy",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_order_copy.py",
+        "--checkpoint",
+        "runs/pipeline-local-muon-b256/cache/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-local-muon-b256/order-copy"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 31.674385541991796,
+      "log": "runs/pipeline-local-muon-b256/order-copy.log"
+    },
+    {
+      "name": "adaptive",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_adaptive.py",
+        "--checkpoint",
+        "runs/pipeline-local-muon-b256/order-copy/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-local-muon-b256/adaptive"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 31.985839375003707,
+      "log": "runs/pipeline-local-muon-b256/adaptive.log"
+    },
+    {
+      "name": "fixed-validation",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "evaluate.py",
+        "--checkpoint",
+        "runs/pipeline-local-muon-b256/adaptive/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--precision",
+        "fp32",
+        "--threads",
+        "4",
+        "--split",
+        "validation",
+        "--output",
+        "runs/pipeline-local-muon-b256/validation_cpu_fp32.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 33.15722724999068,
+      "log": "runs/pipeline-local-muon-b256/fixed-validation.log"
+    },
+    {
+      "name": "resources",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/pipeline-local-muon-b256/adaptive/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-local-muon-b256/resources"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 140.0708428749931,
+      "log": "runs/pipeline-local-muon-b256/resources.log"
+    }
+  ],
+  "test_evaluated": false,
+  "selected_checkpoint": "runs/pipeline-local-muon-b256/adaptive/checkpoint.pt",
+  "search_bpb": 1.447069385972677,
+  "validated_bpb": 1.4470695440953276,
+  "below_1_4_validation": false,
+  "resource_summary": "runs/pipeline-local-muon-b256/resources/summary.json"
+}

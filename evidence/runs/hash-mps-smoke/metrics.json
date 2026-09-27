@@ -1,0 +1,25 @@
+{
+  "implementation": "student_hash",
+  "steps": 2,
+  "train_tokens": 64,
+  "train_seconds": 1.3119420830043964,
+  "losses": [
+    7.58912467956543,
+    7.518490791320801
+  ],
+  "config": {
+    "vocab": 2048,
+    "width": 32,
+    "heads": 4,
+    "depth": 2,
+    "context": 256,
+    "local_kernel": 3,
+    "hash_buckets": 128,
+    "hash_width": 8
+  },
+  "checkpoint_exported": false,
+  "precision": "bf16",
+  "purpose": "Operator smoke check, not an accuracy candidate",
+  "source_sha256": "57e7bd5f64e820b5e5e53f3f1d80a2fd9fef318e58c5fa1f5922f2a80acbb9d5",
+  "implementation_sha256": "b26d9fc2ddf5babcb9b1cd044b6e4033323ec8f42b26ffbc843c154045951cbb"
+}

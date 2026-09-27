@@ -1,0 +1,72 @@
+{
+  "best": {
+    "copy_order_weights": [
+      0.0,
+      0.0,
+      0.1,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "bpb": 1.4493344143836102
+  },
+  "constant_weight_results": [
+    {
+      "weight": 0.0,
+      "bpb": 1.452931841585517
+    },
+    {
+      "weight": 0.1,
+      "bpb": 1.4498281726356603
+    },
+    {
+      "weight": 0.2,
+      "bpb": 1.44969219308423
+    },
+    {
+      "weight": 0.3,
+      "bpb": 1.4509026059786585
+    },
+    {
+      "weight": 0.4,
+      "bpb": 1.4531899817437577
+    },
+    {
+      "weight": 0.5,
+      "bpb": 1.4565937890744547
+    },
+    {
+      "weight": 0.6,
+      "bpb": 1.4613788609175005
+    },
+    {
+      "weight": 0.7,
+      "bpb": 1.4681592184547883
+    },
+    {
+      "weight": 0.8,
+      "bpb": 1.4784016774634314
+    },
+    {
+      "weight": 0.9,
+      "bpb": 1.4968762945683765
+    }
+  ],
+  "group_target_counts": [
+    22356,
+    10829,
+    12585
+  ],
+  "groups": [
+    "2",
+    "3",
+    "4+"
+  ],
+  "search_seconds": 30.573370874975808,
+  "selected_on": "validation",
+  "parent_checkpoint": "runs/pipeline-local-muon-b256/cache/checkpoint.pt",
+  "parent_sha256": "41225a0313f774fa5db2aebe992c5228a8153e590101ccb231fa811f57d16bc8",
+  "contract_checks": "passed",
+  "source_sha256": "334f2bcfd336727ef5e9a25b9b4ad509fac94f85c12966a9d5ae80257c8ffbc2"
+}

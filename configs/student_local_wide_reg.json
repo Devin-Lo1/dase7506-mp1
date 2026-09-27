@@ -1,0 +1,12 @@
+{
+  "vocab": 2048,
+  "width": 384,
+  "heads": 6,
+  "depth": 5,
+  "context": 256,
+  "dropout": 0.3,
+  "embedding_dropout": 0.2,
+  "attention_dropout": 0.1,
+  "positional_encoding": "rotary",
+  "local_kernel": 3
+}

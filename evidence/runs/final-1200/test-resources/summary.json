@@ -1,0 +1,163 @@
+{
+  "split": "test",
+  "precision": "fp32",
+  "threads": 4,
+  "runs": {
+    "baseline": [
+      {
+        "seconds": 6.645745999994688,
+        "bpb": 2.1012651958438786,
+        "peak_rss_bytes": 2160394240,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "test",
+          "--output",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/test-resources/baseline-1.json"
+        ]
+      },
+      {
+        "seconds": 6.644303165958263,
+        "bpb": 2.1012651958438786,
+        "peak_rss_bytes": 2159886336,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "test",
+          "--output",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/test-resources/baseline-2.json"
+        ]
+      },
+      {
+        "seconds": 6.67993420897983,
+        "bpb": 2.1012651958438786,
+        "peak_rss_bytes": 2130247680,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "test",
+          "--output",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/test-resources/baseline-3.json"
+        ]
+      }
+    ],
+    "candidate": [
+      {
+        "seconds": 31.053596584009938,
+        "bpb": 1.4381909205827006,
+        "peak_rss_bytes": 2759507968,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "test",
+          "--output",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/test-resources/candidate-1.json"
+        ]
+      },
+      {
+        "seconds": 31.480347833014093,
+        "bpb": 1.4381909205827006,
+        "peak_rss_bytes": 2771058688,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "test",
+          "--output",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/test-resources/candidate-2.json"
+        ]
+      },
+      {
+        "seconds": 31.04931500001112,
+        "bpb": 1.4381909205827006,
+        "peak_rss_bytes": 2763816960,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "test",
+          "--output",
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/test-resources/candidate-3.json"
+        ]
+      }
+    ]
+  },
+  "median_time_ratio": 4.672702896564925,
+  "candidate_peak_rss_gib": 2.58074951171875,
+  "model_assets_mib": 58.568878173828125,
+  "model_assets": [
+    "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/runs/final-1200/checkpoint.pt",
+    "student.py",
+    "common.py",
+    "evaluate.py",
+    "student_local.py",
+    "hybrid.py",
+    "context_cache.py"
+  ],
+  "note": "Frozen full-test predictor resource measurement.",
+  "development_limits_pass": true
+}

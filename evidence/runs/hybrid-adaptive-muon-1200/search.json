@@ -1,0 +1,1164 @@
+{
+  "best": {
+    "temperature": 1.1,
+    "count_weight_low": 0.1,
+    "count_weight_high": 0.5,
+    "count_confidence_power": 2.0,
+    "bpb": 1.482911545491747
+  },
+  "results": [
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.482911545491747
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.483228607122811
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4842817209878167
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4843010497435616
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4843543663839245
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4844616265462496
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4845194956149035
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4852843771006563
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4855157165680961
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4855347077585848
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4856154838935185
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4858848767158406
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4859949154952794
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4861232865952196
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.486216845279202
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4863547504296335
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4864286630812846
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4864638031289361
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.48648075768392
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4865734207751722
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.486710868345108
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.486732903092548
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4867468357200608
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4867881762511794
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.487097429318441
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.487148690188851
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.2,
+      "count_confidence_power": 1.0,
+      "bpb": 1.487183002728365
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4873016718534988
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4875857675946036
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.487720339730769
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4878110547784564
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4878887424639222
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.487974665307761
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.2,
+      "count_confidence_power": 1.0,
+      "bpb": 1.488011388174633
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4882113425993573
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4883297248084237
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4883537157378097
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.1,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4883953273853714
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4884536647531685
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4885588963014185
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4890904916655092
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.489259415071821
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.489289896188324
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4893491693095027
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4894987144285936
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.489691982473184
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4897094502588846
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.489858476004612
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.49021567511934
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4904305361774648
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.490561591127308
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4905835518460808
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.1,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4905941425716855
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4909437497053473
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.491026078999178
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4910755511704754
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.491100783299297
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4912107542712163
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4912128657516064
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4912764612435856
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4912888934587882
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.3,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4919317934571683
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4919999918988076
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.3,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.492014052280346
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4921082764224183
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4922869890120845
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4922938196769395
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4922953571122832
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4923215586256384
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4925431789080204
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4925656671879408
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4928907895312733
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4931889050586813
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4931936953258618
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4932268216753197
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4936055146672085
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.493689534303387
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4937600549228265
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4939051644797525
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4941428514828758
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4942347928412791
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4945410145198847
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4945563866942104
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.2,
+      "count_confidence_power": 1.0,
+      "bpb": 1.494585741539678
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4946013422639544
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4948175689674787
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4952962764841258
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4953670773943015
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4956272230728438
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4958298658861817
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.495933210022046
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.1,
+      "count_confidence_power": 1.0,
+      "bpb": 1.496033761272796
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.4961687509595645
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4964670175199049
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4984595308358217
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.3,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4988473717489215
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4988802964719907
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4993299960350712
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.4995832054279081
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4997109785473617
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.4997907626617863
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.4,
+      "count_weight_high": 0.4,
+      "count_confidence_power": 1.0,
+      "bpb": 1.500841932130427
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5011138979887684
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.4,
+      "count_weight_high": 0.4,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5011987646517324
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5014590507131167
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5020979002251624
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5023993941774147
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5024999373408432
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.502522082962973
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5027692198048264
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.502882005447038
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5040071119730625
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5040709615086596
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5041187600268333
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 2.0,
+      "bpb": 1.50416408513975
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.504331531001044
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.504350239967621
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5043859910781547
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.504468842325057
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5046917709307461
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.504985156612825
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5052610208424306
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5053141311599154
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5053318404409217
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.0,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5057701057905575
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5060308013185493
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5061248226603747
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.506204858308814
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 2.0,
+      "bpb": 1.506235411939764
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5062616946774414
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.506387417795403
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5064093635928193
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5066826558816395
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.506794780557932
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.4,
+      "count_weight_high": 0.4,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5075019747290692
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5075717991592745
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.2,
+      "count_confidence_power": 1.0,
+      "bpb": 1.508308370085048
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5083693493926829
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5090248519458576
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5094683280802934
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5095704448116456
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.509718760014432
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.510169950769288
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 2.0,
+      "bpb": 1.5103153905888147
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.5,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5107933354532181
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.3,
+      "count_weight_high": 0.3,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5111433346791308
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.1,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5111962829651076
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.0,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5121126791715547
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.0,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5126912997254942
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5129123925382815
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5139686287173781
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5149725349560776
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.515542403862958
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5156627291468119
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.4,
+      "count_weight_high": 0.4,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5183812787798545
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5194949704469423
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.7,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5195679795724053
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.521711927148547
+    },
+    {
+      "temperature": 1.1,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5229595334043349
+    },
+    {
+      "temperature": 1.0,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5231305911002506
+    },
+    {
+      "temperature": 1.2,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5273758303015077
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.1,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5278678147570859
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.0,
+      "count_weight_high": 0.0,
+      "count_confidence_power": 1.0,
+      "bpb": 1.5282756802484176
+    },
+    {
+      "temperature": 1.3,
+      "count_weight_low": 0.2,
+      "count_weight_high": 0.9,
+      "count_confidence_power": 0.5,
+      "bpb": 1.5352670885806283
+    }
+  ],
+  "search_seconds": 124.57443600002443,
+  "parent_checkpoint": "runs/hybrid-order-copy-muon-1200/checkpoint.pt",
+  "parent_sha256": "d0e7cf4e911e148266bba08b10b02c1a28fc6c8ce1be1ad52039a3d4767a477d",
+  "contract_checks": "passed",
+  "selected_on": "validation"
+}

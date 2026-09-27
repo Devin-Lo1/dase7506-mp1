@@ -1,0 +1,6 @@
+{
+  "status": "cancelled before training",
+  "previous_pipeline": "runs/pipeline-local-wide-b512/pipeline.json",
+  "stages": [],
+  "reason": "User requested final scoring and testing; development is being closed."
+}

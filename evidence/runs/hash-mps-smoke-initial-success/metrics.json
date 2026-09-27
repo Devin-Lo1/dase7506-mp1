@@ -1,0 +1,8 @@
+{
+  "implementation": "student_hash",
+  "steps": 2,
+  "train_tokens": 64,
+  "train_seconds": 1.489818166999612,
+  "checkpoint_exported": false,
+  "purpose": "Initial successful small prefix check; later expanded random-ID check is separate."
+}

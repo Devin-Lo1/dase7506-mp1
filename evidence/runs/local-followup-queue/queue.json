@@ -1,0 +1,20 @@
+{
+  "status": "stopped: architecture prototype exceeds resource budget",
+  "previous_pipeline": "runs/pipeline-muon-b256/pipeline.json",
+  "stages": [
+    {
+      "name": "prototype-resources",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/local-followup-queue/prototype.pt",
+        "--output-dir",
+        "runs/local-followup-queue/prototype-resources"
+      ],
+      "exit_code": 0,
+      "seconds": 184.05869483295828,
+      "log": "runs/local-followup-queue/prototype-resources.log"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "training_dir": "runs/student-muon-reg-b256-s17",
+  "training_steps": 1200,
+  "training_targets": 78643200,
+  "stages": [
+    {
+      "name": "cache",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_cache.py",
+        "--neural",
+        "runs/student-muon-reg-b256-s17/checkpoint-step-1200.pt",
+        "--output-dir",
+        "runs/pipeline-muon-b256/cache"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 29.13734466698952,
+      "log": "runs/pipeline-muon-b256/cache.log"
+    },
+    {
+      "name": "order-copy",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_order_copy.py",
+        "--checkpoint",
+        "runs/pipeline-muon-b256/cache/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-muon-b256/order-copy"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 29.154196624993347,
+      "log": "runs/pipeline-muon-b256/order-copy.log"
+    },
+    {
+      "name": "adaptive",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_adaptive.py",
+        "--checkpoint",
+        "runs/pipeline-muon-b256/order-copy/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-muon-b256/adaptive"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 29.50770050002029,
+      "log": "runs/pipeline-muon-b256/adaptive.log"
+    },
+    {
+      "name": "fixed-validation",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "evaluate.py",
+        "--checkpoint",
+        "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--precision",
+        "fp32",
+        "--threads",
+        "4",
+        "--split",
+        "validation",
+        "--output",
+        "runs/pipeline-muon-b256/validation_cpu_fp32.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 31.122018958965782,
+      "log": "runs/pipeline-muon-b256/fixed-validation.log"
+    },
+    {
+      "name": "resources",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-muon-b256/resources"
+      ],
+      "exit_code": 1,
+      "wall_seconds": 14.326585791946854,
+      "log": "runs/pipeline-muon-b256/resources.log"
+    },
+    {
+      "name": "resources",
+      "exit_code": 0,
+      "retry_of": "resources.log",
+      "command": [
+        ".venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-muon-b256/resources-retry"
+      ],
+      "result": "runs/pipeline-muon-b256/resources-retry/summary.json",
+      "note": "Retry uses own-process getrusage; original failed stage retained."
+    }
+  ],
+  "test_evaluated": false,
+  "selected_checkpoint": "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+  "search_bpb": 1.4640798937170192,
+  "validated_bpb": 1.464080025399067,
+  "below_1_4_validation": false,
+  "resource_summary": "runs/pipeline-muon-b256/resources-retry/summary.json"
+}

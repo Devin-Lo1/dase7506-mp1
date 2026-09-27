@@ -1,0 +1,162 @@
+{
+  "split": "validation",
+  "precision": "fp32",
+  "threads": 4,
+  "runs": {
+    "baseline": [
+      {
+        "seconds": 6.3999178330414,
+        "bpb": 2.0710874333793914,
+        "peak_rss_bytes": 2100051968,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-muon-b256/resources-retry/baseline-1.json"
+        ]
+      },
+      {
+        "seconds": 6.385702833998948,
+        "bpb": 2.0710874333793914,
+        "peak_rss_bytes": 2153889792,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-muon-b256/resources-retry/baseline-2.json"
+        ]
+      },
+      {
+        "seconds": 6.023964540974703,
+        "bpb": 2.0710874333793914,
+        "peak_rss_bytes": 2122416128,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/baseline/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-muon-b256/resources-retry/baseline-3.json"
+        ]
+      }
+    ],
+    "candidate": [
+      {
+        "seconds": 26.439545958011877,
+        "bpb": 1.464080025399067,
+        "peak_rss_bytes": 2779348992,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-muon-b256/resources-retry/candidate-1.json"
+        ]
+      },
+      {
+        "seconds": 26.40612633404089,
+        "bpb": 1.464080025399067,
+        "peak_rss_bytes": 2785574912,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-muon-b256/resources-retry/candidate-2.json"
+        ]
+      },
+      {
+        "seconds": 23.844627125014085,
+        "bpb": 1.464080025399067,
+        "peak_rss_bytes": 2779906048,
+        "command": [
+          "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+          "-c",
+          "import atexit,resource,runpy,sys; atexit.register(lambda: print(\"MP1_MAX_RSS=\"+str(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),file=sys.stderr)); script=sys.argv.pop(1); sys.argv[0]=script; runpy.run_path(script,run_name=\"__main__\")",
+          "evaluate.py",
+          "--checkpoint",
+          "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+          "--device",
+          "cpu",
+          "--precision",
+          "fp32",
+          "--threads",
+          "4",
+          "--split",
+          "validation",
+          "--output",
+          "runs/pipeline-muon-b256/resources-retry/candidate-3.json"
+        ]
+      }
+    ]
+  },
+  "median_time_ratio": 4.135194984872864,
+  "candidate_peak_rss_gib": 2.594268798828125,
+  "model_assets_mib": 55.52841281890869,
+  "model_assets": [
+    "runs/pipeline-muon-b256/adaptive/checkpoint.pt",
+    "student.py",
+    "common.py",
+    "evaluate.py",
+    "hybrid.py",
+    "context_cache.py"
+  ],
+  "note": "Development validation check only; final full-test measurement remains required.",
+  "development_limits_pass": true
+}

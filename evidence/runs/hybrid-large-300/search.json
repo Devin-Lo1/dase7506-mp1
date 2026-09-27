@@ -1,0 +1,1596 @@
+{
+  "neural_checkpoint": "runs/student-large-mps-b128-s17/checkpoint-step-300.pt",
+  "neural_training_targets": 9830400,
+  "additional_count_training_targets": 3613342,
+  "best": {
+    "temperature": 1.0,
+    "mixture_weight": 0.4,
+    "cache_weight": 0.1,
+    "cache_theta": 10.0,
+    "bpb": 1.6147063343428758
+  },
+  "results": [
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6147063343428758
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6159264671713125
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6172329702790669
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6176934410715864
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6177592746584104
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6182935147310085
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6189701063182125
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6193582835729856
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6194557569907986
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6194720944957925
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6200906058724422
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6203008458938426
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6206422791470156
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6207155835092784
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.620728546157618
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6210897180972854
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.62211944645856
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6224113584579367
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6224489390819747
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6224990533177301
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6229866800566102
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6236878208249699
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6237398495001634
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6237748898177546
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6239664986641011
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6240431159555613
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.624316351915942
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.624590090021566
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.624669644353843
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.6248328706547777
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6250786710348875
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6261513004140933
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6261995780541112
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.626425322801955
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6265471939689944
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6265735555731866
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6266348287008707
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.6274225382641057
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.627590225218844
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6278086795202245
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.628120295117595
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6284336879813899
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6285240279863746
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6286469402205779
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6288829754415681
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6289849608277875
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6292540672555245
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6295834115276864
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6297776762038843
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6299709482536808
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6299829304139914
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6300639789669684
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.6309279902766756
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.631198099692269
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6315355354095964
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6320090431628236
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6323005345365134
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.632362408940344
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.6324738382470123
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.632842264723726
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6336206542766276
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.6336994310470945
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6337398652635242
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6338485904429418
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.634016945929322
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6342299046822988
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.634605014829261
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6351833387251298
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.6352223070786638
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.635355701389995
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.635638985902433
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.635654896484487
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.6369359493185163
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6372148874222638
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6372945695583094
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6375273531412828
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6375457887750802
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6377776084381106
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.638132139165332
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6385342479369138
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.639179018425517
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.63919077353901
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6395692336286503
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6399820423767884
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6402663538266151
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.6403898445509033
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.640483602260593
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6409146246826187
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6414073005598742
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6416781170041428
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6428364053446436
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6432631193936198
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.643906500466138
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6447010895647869
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6454709028293193
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6461923444229276
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.647071974769727
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6472427176738669
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.648125671028263
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6482259543711948
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.648527865141571
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6489115863010455
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.6490454284446272
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6490830845149091
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6491366229147266
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6496170059162227
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.649669208868102
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6506630251546242
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.652120744166254
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.6522997232465373
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.652466029175778
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6526936205697296
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.6529433821988295
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6529435763778246
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6530389886340575
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6533100479950051
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6534655310587643
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6536082835325607
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.654214296141139
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.654269962536007
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.6562439403527003
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.6566596540573744
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6568547551567365
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.6569516989072577
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6579404532490736
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.6587693420883838
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.659438310477559
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.6595086324171364
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.6600309870499435
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6600564089378023
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.6603146581189487
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.6619890398721089
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6622223279396218
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6623001841113036
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.662636456229211
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.662785420031807
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.662785420031807
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.662785420031807
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6639700586851207
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.665383516659365
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.665383516659365
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.665383516659365
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.6654170251670681
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.6668244364621936
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.6668244364621936
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.6668244364621936
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.6674277539189333
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.6674277539189333
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.4,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.6674277539189333
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.668067549361573
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.6692001142941963
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6702558706194743
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.6703645591546212
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.6704178310075828
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.6704178310075828
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.6704178310075828
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.6706957463915992
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.6706957463915992
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.3,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.6706957463915992
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.674696915519553
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.674696915519553
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.674696915519553
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.6747941280490093
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.680432666789104
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.680553237947896
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.680553237947896
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.680553237947896
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.681191434414339
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.681191434414339
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.2,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.681191434414339
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.682334251737513
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.6946778740554447
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.6946778740554447
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.6946778740554447
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.6998239259133814
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.7007574658504094
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.7007574658504094
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.7007574658504094
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.702774054346449
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.7032855631855013
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.7036588191828492
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.7036588191828492
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.1,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.7036588191828492
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.7047052540166947
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.7054143240116628
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.7059320525697599
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.7075648097929965
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.7083011486445703
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.7090079429946128
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.7096828370832482
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.7099184383404997
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.7107464635242193
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.7110776594477426
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.7114501641873163
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 10.0,
+      "bpb": 1.71197231984812
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.712581119272793
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.7138775483355515
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.714323262228055
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 10.0,
+      "bpb": 1.7154369951898718
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.7167553092714316
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 20.0,
+      "bpb": 1.7168365826532093
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 10.0,
+      "bpb": 1.7171693698252408
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.7179270518080043
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.7184433937666292
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.7193955287318625
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.7213201743231688
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.7222540815928225
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 20.0,
+      "bpb": 1.7225726645034696
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 10.0,
+      "bpb": 1.7237234989265933
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.05,
+      "cache_theta": 40.0,
+      "bpb": 1.724812856724078
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.1,
+      "cache_theta": 40.0,
+      "bpb": 1.7254053660492648
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.7303809874807043
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 20.0,
+      "bpb": 1.732953392417103
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.7332889679272614
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.15,
+      "cache_theta": 40.0,
+      "bpb": 1.7337754339174936
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.2,
+      "cache_theta": 40.0,
+      "bpb": 1.74656323039048
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.758518816257606
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.758518816257606
+    },
+    {
+      "temperature": 1.0,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.758518816257606
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.7612662298664408
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.7612662298664408
+    },
+    {
+      "temperature": 1.1,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.7612662298664408
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 10.0,
+      "bpb": 1.7777641991153803
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 20.0,
+      "bpb": 1.7777641991153803
+    },
+    {
+      "temperature": 0.9,
+      "mixture_weight": 0.0,
+      "cache_weight": 0.0,
+      "cache_theta": 40.0,
+      "bpb": 1.7777641991153803
+    }
+  ],
+  "search_seconds": 111.87877237499924,
+  "contract_checks": "passed",
+  "selected_on": "validation",
+  "neural_parent_sha256": "9d638418ebf23f5b8d190234f04ddd08372b66b1fcbc7bceeb828414e7723f1c",
+  "count_asset_sha256": "1fee371957133f30711a3390a14f8ece4283addad1e19a61e431ca7250422c6d",
+  "hybrid_source_sha256": "795b09090f5e4d1eee037998df89375539b5ae76252a13523f838761a790d0eb",
+  "cache_source_sha256": "0edda5de53c0d0fae421326d9e9e7d254735a84e9aeef663906f70568a510a7e"
+}

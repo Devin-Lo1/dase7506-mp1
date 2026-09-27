@@ -1,0 +1,20 @@
+{
+  "training_tokens": 3613343,
+  "training_targets": 3613342,
+  "max_order": 12,
+  "minimum_count_high_orders": 2,
+  "source_sha256": "c58d555a94ada0882d1e8c0b3dc7ba68e1c269da5ad9e7a057300245d130c4e8",
+  "builder_sha256": "b5f5725d1fd8bd2e10ccb6a77ab60f8efe591897641f49da9fee7ae921b95f6c",
+  "seconds": 7.409828583011404,
+  "uncompressed_tensor_bytes": 35163000,
+  "long_context_hash": "polynomial 2053 modulo 2^63",
+  "extension_seconds": 37.203167625004426,
+  "extension_source_sha256": "a31e78d4daaa0c0b6fcbb3d4db83922a4914bf5a3806d954deb82066112a3b89",
+  "base_asset_sha256": "1a717fe67f67674b58c5daa0202eca215f14d37b442026a825503a08a94f781c",
+  "singleton_trigram_continuations": true,
+  "packing": "lossless signed integer range packing",
+  "refinement_seconds": 24.2086787080043,
+  "refinement_training_targets": 3613342,
+  "refinement_source_sha256": "3bdc92c622515abd20f5122cabba6e1b21b81e14a3420e00e803994ab84b50c5",
+  "refinement_parent_sha256": "1fee371957133f30711a3390a14f8ece4283addad1e19a61e431ca7250422c6d"
+}

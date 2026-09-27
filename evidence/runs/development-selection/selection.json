@@ -1,0 +1,95 @@
+{
+  "status": "completed",
+  "test_evaluated": false,
+  "stages": [
+    {
+      "name": "local-wide-b512-average",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_same_run_average.py",
+        "--hybrid",
+        "runs/pipeline-local-wide-b512/adaptive/checkpoint.pt",
+        "--baseline-score",
+        "runs/pipeline-local-wide-b512/validation_cpu_fp32.json",
+        "--training-dir",
+        "runs/student-local-wide-b512-s17",
+        "--output-dir",
+        "runs/development-selection/local-wide-b512-average"
+      ],
+      "exit_code": 0,
+      "seconds": 51.86825045902515
+    },
+    {
+      "name": "hash-b512-average",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_same_run_average.py",
+        "--hybrid",
+        "runs/pipeline-hash-b512/adaptive/checkpoint.pt",
+        "--baseline-score",
+        "runs/pipeline-hash-b512/validation_cpu_fp32.json",
+        "--training-dir",
+        "runs/student-hash-b512-s17",
+        "--output-dir",
+        "runs/development-selection/hash-b512-average"
+      ],
+      "exit_code": 0,
+      "seconds": 49.47363412496634
+    },
+    {
+      "name": "resources-1",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/development-selection/local-wide-b512-average/checkpoint.pt",
+        "--output-dir",
+        "runs/development-selection/resources-1"
+      ],
+      "exit_code": 0,
+      "seconds": 156.07191912503913
+    },
+    {
+      "name": "inventory",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "collect_experiments.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.10168883297592402
+    }
+  ],
+  "candidates": [
+    {
+      "checkpoint": "runs/development-selection/local-wide-b512-average/checkpoint.pt",
+      "bpb": 1.4242497677357142,
+      "score": "runs/development-selection/local-wide-b512-average/search.json",
+      "resource_summary": "runs/development-selection/resources-1/summary.json",
+      "resource_limits_pass": true
+    },
+    {
+      "checkpoint": "runs/local-average-full-counts/checkpoint.pt",
+      "bpb": 1.4449589834512648,
+      "score": "runs/local-average-full-counts/validation_cpu_fp32.json"
+    },
+    {
+      "checkpoint": "runs/pipeline-local-muon-b256/adaptive/checkpoint.pt",
+      "bpb": 1.4470695440953276,
+      "score": "runs/pipeline-local-muon-b256/validation_cpu_fp32.json"
+    },
+    {
+      "checkpoint": "runs/development-selection/hash-b512-average/checkpoint.pt",
+      "bpb": 1.5092717830530322,
+      "score": "runs/development-selection/hash-b512-average/search.json"
+    }
+  ],
+  "selected": {
+    "checkpoint": "runs/development-selection/local-wide-b512-average/checkpoint.pt",
+    "bpb": 1.4242497677357142,
+    "score": "runs/development-selection/local-wide-b512-average/search.json",
+    "resource_summary": "runs/development-selection/resources-1/summary.json",
+    "resource_limits_pass": true
+  },
+  "below_1_4_validation": false,
+  "note": "Best observed compliant validation candidate; test untouched, no global optimality claim."
+}

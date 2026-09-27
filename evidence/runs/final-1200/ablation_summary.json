@@ -1,0 +1,101 @@
+{
+  "purpose": "Diagnostic component removal only, no retraining or retuning, no final predictor selection.",
+  "split": "validation",
+  "frozen_checkpoint_sha256": "c3546391a7b8c2636de9fc0555faf3e614f454b2871ccfc5f7102770cb559069",
+  "results": [
+    {
+      "variant": "full frozen predictor",
+      "validation_bpb": 1.4217038295231355
+    },
+    {
+      "variant": "without_counts",
+      "validation_bpb": 1.4364409113248198,
+      "increase_bpb": 0.014737081801684315,
+      "checkpoint_sha256": "6e4efb588f6b34d020be4046e83fb68998571b9683a74eee22b9e9d3f39ba2cd",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "evaluate.py",
+        "--checkpoint",
+        "runs/final-ablations/without_counts/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--precision",
+        "fp32",
+        "--threads",
+        "4",
+        "--split",
+        "validation",
+        "--output",
+        "runs/final-ablations/without_counts/validation_cpu_fp32.json"
+      ]
+    },
+    {
+      "variant": "without_continuous_cache",
+      "validation_bpb": 1.424676534127977,
+      "increase_bpb": 0.0029727046048415584,
+      "checkpoint_sha256": "02b71fffce92608cedeaf486c3076b958d8680708d5a30e8d62e7fba192efaa1",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "evaluate.py",
+        "--checkpoint",
+        "runs/final-ablations/without_continuous_cache/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--precision",
+        "fp32",
+        "--threads",
+        "4",
+        "--split",
+        "validation",
+        "--output",
+        "runs/final-ablations/without_continuous_cache/validation_cpu_fp32.json"
+      ]
+    },
+    {
+      "variant": "without_suffix_copy",
+      "validation_bpb": 1.4265952678367337,
+      "increase_bpb": 0.004891438313598284,
+      "checkpoint_sha256": "4927340efc78e98daf016971f24c81a67afcbfa3aa6e4c3e36c5d41a82b0ce91",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "evaluate.py",
+        "--checkpoint",
+        "runs/final-ablations/without_suffix_copy/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--precision",
+        "fp32",
+        "--threads",
+        "4",
+        "--split",
+        "validation",
+        "--output",
+        "runs/final-ablations/without_suffix_copy/validation_cpu_fp32.json"
+      ]
+    },
+    {
+      "variant": "calibrated_neural_only",
+      "validation_bpb": 1.44897531774374,
+      "increase_bpb": 0.027271488220604656,
+      "checkpoint_sha256": "3124e406657c1d0f6d65437df526f5cfabd016f0bfbc117c947cd322e4cf7e11",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "evaluate.py",
+        "--checkpoint",
+        "runs/final-ablations/calibrated_neural_only/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--precision",
+        "fp32",
+        "--threads",
+        "4",
+        "--split",
+        "validation",
+        "--output",
+        "runs/final-ablations/calibrated_neural_only/validation_cpu_fp32.json"
+      ]
+    }
+  ],
+  "seconds": 135.48347620799905,
+  "limitation": "Measures dependence on each inference component; not a matched retraining ablation of architecture."
+}

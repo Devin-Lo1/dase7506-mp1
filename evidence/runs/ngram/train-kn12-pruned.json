@@ -1,0 +1,14 @@
+{
+  "training_tokens": 3613343,
+  "training_targets": 3613342,
+  "max_order": 12,
+  "minimum_count_high_orders": 2,
+  "source_sha256": "c58d555a94ada0882d1e8c0b3dc7ba68e1c269da5ad9e7a057300245d130c4e8",
+  "builder_sha256": "b5f5725d1fd8bd2e10ccb6a77ab60f8efe591897641f49da9fee7ae921b95f6c",
+  "seconds": 7.409828583011404,
+  "uncompressed_tensor_bytes": 30336734,
+  "long_context_hash": "polynomial 2053 modulo 2^63",
+  "extension_seconds": 37.203167625004426,
+  "extension_source_sha256": "a31e78d4daaa0c0b6fcbb3d4db83922a4914bf5a3806d954deb82066112a3b89",
+  "base_asset_sha256": "1a717fe67f67674b58c5daa0202eca215f14d37b442026a825503a08a94f781c"
+}

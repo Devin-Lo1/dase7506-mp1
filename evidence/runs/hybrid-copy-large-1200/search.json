@@ -1,0 +1,41 @@
+{
+  "best": {
+    "copy_weight": 0.3,
+    "bpb": 1.5085908380783437
+  },
+  "results": [
+    {
+      "copy_weight": 0.0,
+      "bpb": 1.521223477582056
+    },
+    {
+      "copy_weight": 0.1,
+      "bpb": 1.5123386712044857
+    },
+    {
+      "copy_weight": 0.2,
+      "bpb": 1.5093208873060726
+    },
+    {
+      "copy_weight": 0.3,
+      "bpb": 1.5085908380783437
+    },
+    {
+      "copy_weight": 0.4,
+      "bpb": 1.509416390490357
+    },
+    {
+      "copy_weight": 0.5,
+      "bpb": 1.511649339819718
+    },
+    {
+      "copy_weight": 0.7,
+      "bpb": 1.5214052173650245
+    }
+  ],
+  "search_seconds": 30.675330374971963,
+  "parent_checkpoint": "runs/hybrid-large-1200/checkpoint.pt",
+  "parent_sha256": "a447210c0d046e258898e2b0640215e1309cc7d28f7b4d545931ab0731b340b9",
+  "contract_checks": "passed on repeated sequences",
+  "selected_on": "validation"
+}

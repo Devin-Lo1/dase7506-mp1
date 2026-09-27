@@ -1,0 +1,8 @@
+{
+  "status": "interrupted_before_first_100_update_log",
+  "reason": "large batch caused memory pressure and swapping",
+  "elapsed_seconds_approx": 450,
+  "exact_completed_steps": "unknown, fewer than 100",
+  "checkpoint_saved": false,
+  "restart": "microbatch 32 with 4 accumulation steps"
+}

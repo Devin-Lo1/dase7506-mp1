@@ -1,0 +1,93 @@
+{
+  "training_dir": "runs/student-local-wide-b512-s17",
+  "training_steps": 1200,
+  "training_targets": 157286400,
+  "stages": [
+    {
+      "name": "cache",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_cache.py",
+        "--neural",
+        "runs/student-local-wide-b512-s17/checkpoint-step-1200.pt",
+        "--counts",
+        "runs/ngram/train-kn5-full-trigram-packed.pt",
+        "--output-dir",
+        "runs/pipeline-local-wide-b512/cache"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 18.909639958001208,
+      "log": "runs/pipeline-local-wide-b512/cache.log"
+    },
+    {
+      "name": "order-copy",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_order_copy.py",
+        "--checkpoint",
+        "runs/pipeline-local-wide-b512/cache/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-local-wide-b512/order-copy"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 19.048789541993756,
+      "log": "runs/pipeline-local-wide-b512/order-copy.log"
+    },
+    {
+      "name": "adaptive",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "tune_adaptive.py",
+        "--checkpoint",
+        "runs/pipeline-local-wide-b512/order-copy/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-local-wide-b512/adaptive"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 19.526316250034142,
+      "log": "runs/pipeline-local-wide-b512/adaptive.log"
+    },
+    {
+      "name": "fixed-validation",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "evaluate.py",
+        "--checkpoint",
+        "runs/pipeline-local-wide-b512/adaptive/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--precision",
+        "fp32",
+        "--threads",
+        "4",
+        "--split",
+        "validation",
+        "--output",
+        "runs/pipeline-local-wide-b512/validation_cpu_fp32.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 19.99826074996963,
+      "log": "runs/pipeline-local-wide-b512/fixed-validation.log"
+    },
+    {
+      "name": "resources",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/pipeline-local-wide-b512/adaptive/checkpoint.pt",
+        "--output-dir",
+        "runs/pipeline-local-wide-b512/resources"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 81.42113033402711,
+      "log": "runs/pipeline-local-wide-b512/resources.log"
+    }
+  ],
+  "test_evaluated": false,
+  "selected_checkpoint": "runs/pipeline-local-wide-b512/adaptive/checkpoint.pt",
+  "search_bpb": 1.4243761538350534,
+  "validated_bpb": 1.4243763294422123,
+  "below_1_4_validation": false,
+  "resource_summary": "runs/pipeline-local-wide-b512/resources/summary.json"
+}

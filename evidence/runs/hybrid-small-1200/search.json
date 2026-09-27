@@ -1,0 +1,138 @@
+{
+  "neural_checkpoint": "runs/student-rope-s17/checkpoint-step-1200.pt",
+  "neural_training_targets": 9830400,
+  "additional_count_training_targets": 3613342,
+  "results": [
+    {
+      "discount": 0.5,
+      "mixture_weight": 0.4,
+      "bpb": 1.6657008523564307
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 0.4,
+      "bpb": 1.667604988987969
+    },
+    {
+      "discount": 0.5,
+      "mixture_weight": 0.5,
+      "bpb": 1.6682158280385246
+    },
+    {
+      "discount": 0.5,
+      "mixture_weight": 0.3,
+      "bpb": 1.668511661395427
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 0.5,
+      "bpb": 1.6696020365576676
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 0.3,
+      "bpb": 1.670740234183349
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 0.4,
+      "bpb": 1.6720064312927743
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 0.5,
+      "bpb": 1.6741084075037693
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 0.3,
+      "bpb": 1.6749001184039032
+    },
+    {
+      "discount": 0.5,
+      "mixture_weight": 0.2,
+      "bpb": 1.6779365277449616
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 0.2,
+      "bpb": 1.6802818935567765
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 0.2,
+      "bpb": 1.6840151728359287
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 0.7,
+      "bpb": 1.6886552606849514
+    },
+    {
+      "discount": 0.5,
+      "mixture_weight": 0.7,
+      "bpb": 1.689067904943003
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 0.7,
+      "bpb": 1.6929773824942593
+    },
+    {
+      "discount": 0.5,
+      "mixture_weight": 0.1,
+      "bpb": 1.697973454863175
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 0.1,
+      "bpb": 1.700113928631833
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 0.1,
+      "bpb": 1.7030769217150115
+    },
+    {
+      "discount": 0.5,
+      "mixture_weight": 0.0,
+      "bpb": 1.7627164556523849
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 0.0,
+      "bpb": 1.7627164556523849
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 0.0,
+      "bpb": 1.7627164556523849
+    },
+    {
+      "discount": 0.75,
+      "mixture_weight": 1.0,
+      "bpb": 1.8002682828476364
+    },
+    {
+      "discount": 1.0,
+      "mixture_weight": 1.0,
+      "bpb": 1.8022144039757761
+    },
+    {
+      "discount": 0.5,
+      "mixture_weight": 1.0,
+      "bpb": 1.8134560679820693
+    }
+  ],
+  "best": {
+    "discount": 0.5,
+    "mixture_weight": 0.4,
+    "bpb": 1.6657008523564307
+  },
+  "search_seconds": 32.789461291977204,
+  "contract_checks": "passed",
+  "selected_on": "validation",
+  "neural_parent_sha256": "11da31b970360c78143bb8d4c2aea8c06c783647b79388f20cc0aafc250abe3d",
+  "count_asset_sha256": "1a717fe67f67674b58c5daa0202eca215f14d37b442026a825503a08a94f781c",
+  "hybrid_source_sha256": "41cf2c1237dcf38c7b5a0fc958514d10dc5050e121a923e0ebcc8b479418be7b"
+}

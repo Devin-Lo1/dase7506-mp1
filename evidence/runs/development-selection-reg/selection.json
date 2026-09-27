@@ -1,0 +1,6 @@
+{
+  "status": "cancelled before training",
+  "test_evaluated": false,
+  "stages": [],
+  "reason": "User requested final scoring and testing; development is being closed."
+}

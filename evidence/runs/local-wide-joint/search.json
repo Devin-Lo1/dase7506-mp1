@@ -1,0 +1,1032 @@
+{
+  "best": {
+    "bpb": 1.4217036444342634,
+    "temperature": 1.2,
+    "discount": 0.5,
+    "low": 0.1,
+    "high": 0.3,
+    "power": 2.0,
+    "cache_weight": 0.025,
+    "theta": 10.0,
+    "copy2": 0.1,
+    "copy3": 0.2,
+    "copy4": 0.25
+  },
+  "initial_bpb": 1.4243761482853152,
+  "results": [
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.0,
+      "bpb": 1.4407207985847506
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.025,
+      "bpb": 1.4365594312926342
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.05,
+      "bpb": 1.4330619478842306
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.075,
+      "bpb": 1.4301986866227347
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.1,
+      "bpb": 1.4279401069106539
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.125,
+      "bpb": 1.4262569487179344
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.15,
+      "bpb": 1.4251204790432588
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.175,
+      "bpb": 1.4245026354319372
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.2,
+      "bpb": 1.4243761482853152
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.225,
+      "bpb": 1.4247146308397336
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.25,
+      "bpb": 1.4254926412978985
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.275,
+      "bpb": 1.42668572662971
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.3,
+      "bpb": 1.428270437730925
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.325,
+      "bpb": 1.4302243491324558
+    },
+    {
+      "iteration": 0,
+      "parameter": "temperature",
+      "value": 1.35,
+      "bpb": 1.4325260051842525
+    },
+    {
+      "iteration": 0,
+      "parameter": "discount",
+      "value": 0.25,
+      "bpb": 1.4253380406238036
+    },
+    {
+      "iteration": 0,
+      "parameter": "discount",
+      "value": 0.5,
+      "bpb": 1.4243761482853152
+    },
+    {
+      "iteration": 0,
+      "parameter": "discount",
+      "value": 0.75,
+      "bpb": 1.4252234405423718
+    },
+    {
+      "iteration": 0,
+      "parameter": "discount",
+      "value": 1.0,
+      "bpb": 1.4292124122876861
+    },
+    {
+      "iteration": 0,
+      "parameter": "cache_weight",
+      "value": 0,
+      "bpb": 1.424752598295443
+    },
+    {
+      "iteration": 0,
+      "parameter": "cache_weight",
+      "value": 0.025,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "cache_weight",
+      "value": 0.05,
+      "bpb": 1.4243761482853152
+    },
+    {
+      "iteration": 0,
+      "parameter": "cache_weight",
+      "value": 0.075,
+      "bpb": 1.4286564099257042
+    },
+    {
+      "iteration": 0,
+      "parameter": "cache_weight",
+      "value": 0.1,
+      "bpb": 1.4339822935422493
+    },
+    {
+      "iteration": 0,
+      "parameter": "cache_weight",
+      "value": 0.15,
+      "bpb": 1.4468943683209712
+    },
+    {
+      "iteration": 0,
+      "parameter": "cache_weight",
+      "value": 0.2,
+      "bpb": 1.4622226530544373
+    },
+    {
+      "iteration": 0,
+      "parameter": "theta",
+      "value": 1.0,
+      "bpb": 1.428112548450876
+    },
+    {
+      "iteration": 0,
+      "parameter": "theta",
+      "value": 5.0,
+      "bpb": 1.4247706335889232
+    },
+    {
+      "iteration": 0,
+      "parameter": "theta",
+      "value": 10.0,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "theta",
+      "value": 20.0,
+      "bpb": 1.4224291431593936
+    },
+    {
+      "iteration": 0,
+      "parameter": "theta",
+      "value": 40.0,
+      "bpb": 1.4244236245261361
+    },
+    {
+      "iteration": 0,
+      "parameter": "low",
+      "value": 0,
+      "bpb": 1.427251573655807
+    },
+    {
+      "iteration": 0,
+      "parameter": "low",
+      "value": 0.05,
+      "bpb": 1.4225981709421658
+    },
+    {
+      "iteration": 0,
+      "parameter": "low",
+      "value": 0.1,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "low",
+      "value": 0.15,
+      "bpb": 1.4227958371211902
+    },
+    {
+      "iteration": 0,
+      "parameter": "low",
+      "value": 0.2,
+      "bpb": 1.425202355534551
+    },
+    {
+      "iteration": 0,
+      "parameter": "low",
+      "value": 0.25,
+      "bpb": 1.4287297438202287
+    },
+    {
+      "iteration": 0,
+      "parameter": "low",
+      "value": 0.3,
+      "bpb": 1.433254780663477
+    },
+    {
+      "iteration": 0,
+      "parameter": "high",
+      "value": 0.1,
+      "bpb": 1.4228589103759346
+    },
+    {
+      "iteration": 0,
+      "parameter": "high",
+      "value": 0.2,
+      "bpb": 1.4220641987588754
+    },
+    {
+      "iteration": 0,
+      "parameter": "high",
+      "value": 0.3,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "high",
+      "value": 0.4,
+      "bpb": 1.4217997876967234
+    },
+    {
+      "iteration": 0,
+      "parameter": "high",
+      "value": 0.5,
+      "bpb": 1.4221545700176843
+    },
+    {
+      "iteration": 0,
+      "parameter": "high",
+      "value": 0.7,
+      "bpb": 1.423712792344119
+    },
+    {
+      "iteration": 0,
+      "parameter": "high",
+      "value": 0.9,
+      "bpb": 1.4265326040166606
+    },
+    {
+      "iteration": 0,
+      "parameter": "power",
+      "value": 0.25,
+      "bpb": 1.4270446030220652
+    },
+    {
+      "iteration": 0,
+      "parameter": "power",
+      "value": 0.5,
+      "bpb": 1.424339744246814
+    },
+    {
+      "iteration": 0,
+      "parameter": "power",
+      "value": 1.0,
+      "bpb": 1.4224065297933979
+    },
+    {
+      "iteration": 0,
+      "parameter": "power",
+      "value": 2.0,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "power",
+      "value": 3.0,
+      "bpb": 1.4217915712569202
+    },
+    {
+      "iteration": 0,
+      "parameter": "power",
+      "value": 4.0,
+      "bpb": 1.4219137580557277
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.0,
+      "bpb": 1.4229925708847906
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.05,
+      "bpb": 1.4219937229545614
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.1,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.15000000000000002,
+      "bpb": 1.421804888399786
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.2,
+      "bpb": 1.4220489814746364
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.25,
+      "bpb": 1.4224422930975071
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.30000000000000004,
+      "bpb": 1.4229668386071108
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.35000000000000003,
+      "bpb": 1.4236164813060774
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy2",
+      "value": 0.4,
+      "bpb": 1.4243927562595375
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.0,
+      "bpb": 1.4230425390603034
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.05,
+      "bpb": 1.4222284435243582
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.1,
+      "bpb": 1.4219037183087861
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.15000000000000002,
+      "bpb": 1.4217689423145865
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.2,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.25,
+      "bpb": 1.4218214765547763
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.30000000000000004,
+      "bpb": 1.4219650236161823
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.35000000000000003,
+      "bpb": 1.4221757691283525
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.4,
+      "bpb": 1.4224521087675595
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.45,
+      "bpb": 1.4227959974745727
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy3",
+      "value": 0.5,
+      "bpb": 1.423212698775988
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.0,
+      "bpb": 1.424062852781583
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.05,
+      "bpb": 1.4227974733363948
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.1,
+      "bpb": 1.4222258286891387
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.15000000000000002,
+      "bpb": 1.4219114094396217
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.2,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.25,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.30000000000000004,
+      "bpb": 1.421747422089597
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.35000000000000003,
+      "bpb": 1.4218725882052914
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.4,
+      "bpb": 1.4220751125205529
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.45,
+      "bpb": 1.4223554045130355
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.5,
+      "bpb": 1.4227177853544235
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.55,
+      "bpb": 1.4231707371687616
+    },
+    {
+      "iteration": 0,
+      "parameter": "copy4",
+      "value": 0.6000000000000001,
+      "bpb": 1.4237279155231184
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.0,
+      "bpb": 1.4387518788800036
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.025,
+      "bpb": 1.4344576151515096
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.05,
+      "bpb": 1.4308413352691747
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.075,
+      "bpb": 1.427872718430244
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.1,
+      "bpb": 1.425521589523204
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.125,
+      "bpb": 1.4237580768658724
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.15,
+      "bpb": 1.422552861241378
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.175,
+      "bpb": 1.4218773191292255
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.2,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.225,
+      "bpb": 1.4220049390765535
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.25,
+      "bpb": 1.422755273097733
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.275,
+      "bpb": 1.4239297289168165
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.3,
+      "bpb": 1.4255044154412893
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.325,
+      "bpb": 1.4274564871987416
+    },
+    {
+      "iteration": 1,
+      "parameter": "temperature",
+      "value": 1.35,
+      "bpb": 1.4297640894597097
+    },
+    {
+      "iteration": 1,
+      "parameter": "discount",
+      "value": 0.25,
+      "bpb": 1.4227498651393016
+    },
+    {
+      "iteration": 1,
+      "parameter": "discount",
+      "value": 0.5,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "discount",
+      "value": 0.75,
+      "bpb": 1.4225033786976296
+    },
+    {
+      "iteration": 1,
+      "parameter": "discount",
+      "value": 1.0,
+      "bpb": 1.4265006923263648
+    },
+    {
+      "iteration": 1,
+      "parameter": "cache_weight",
+      "value": 0,
+      "bpb": 1.4246763440564576
+    },
+    {
+      "iteration": 1,
+      "parameter": "cache_weight",
+      "value": 0.025,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "cache_weight",
+      "value": 0.05,
+      "bpb": 1.4243541198178833
+    },
+    {
+      "iteration": 1,
+      "parameter": "cache_weight",
+      "value": 0.075,
+      "bpb": 1.4286578738483433
+    },
+    {
+      "iteration": 1,
+      "parameter": "cache_weight",
+      "value": 0.1,
+      "bpb": 1.4340052957955878
+    },
+    {
+      "iteration": 1,
+      "parameter": "cache_weight",
+      "value": 0.15,
+      "bpb": 1.4469555811240606
+    },
+    {
+      "iteration": 1,
+      "parameter": "cache_weight",
+      "value": 0.2,
+      "bpb": 1.4623168342817168
+    },
+    {
+      "iteration": 1,
+      "parameter": "theta",
+      "value": 1.0,
+      "bpb": 1.4280263616752649
+    },
+    {
+      "iteration": 1,
+      "parameter": "theta",
+      "value": 5.0,
+      "bpb": 1.4246961562294278
+    },
+    {
+      "iteration": 1,
+      "parameter": "theta",
+      "value": 10.0,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "theta",
+      "value": 20.0,
+      "bpb": 1.4223901669671788
+    },
+    {
+      "iteration": 1,
+      "parameter": "theta",
+      "value": 40.0,
+      "bpb": 1.424386080976165
+    },
+    {
+      "iteration": 1,
+      "parameter": "low",
+      "value": 0,
+      "bpb": 1.4272228841718684
+    },
+    {
+      "iteration": 1,
+      "parameter": "low",
+      "value": 0.05,
+      "bpb": 1.422560211525261
+    },
+    {
+      "iteration": 1,
+      "parameter": "low",
+      "value": 0.1,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "low",
+      "value": 0.15,
+      "bpb": 1.4227375927820565
+    },
+    {
+      "iteration": 1,
+      "parameter": "low",
+      "value": 0.2,
+      "bpb": 1.4251330138382037
+    },
+    {
+      "iteration": 1,
+      "parameter": "low",
+      "value": 0.25,
+      "bpb": 1.4286486001685879
+    },
+    {
+      "iteration": 1,
+      "parameter": "low",
+      "value": 0.3,
+      "bpb": 1.4331610680775144
+    },
+    {
+      "iteration": 1,
+      "parameter": "high",
+      "value": 0.1,
+      "bpb": 1.4228162331605858
+    },
+    {
+      "iteration": 1,
+      "parameter": "high",
+      "value": 0.2,
+      "bpb": 1.422019054959489
+    },
+    {
+      "iteration": 1,
+      "parameter": "high",
+      "value": 0.3,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "high",
+      "value": 0.4,
+      "bpb": 1.4217491378371656
+    },
+    {
+      "iteration": 1,
+      "parameter": "high",
+      "value": 0.5,
+      "bpb": 1.422100858377798
+    },
+    {
+      "iteration": 1,
+      "parameter": "high",
+      "value": 0.7,
+      "bpb": 1.423652234783201
+    },
+    {
+      "iteration": 1,
+      "parameter": "high",
+      "value": 0.9,
+      "bpb": 1.4264639673857515
+    },
+    {
+      "iteration": 1,
+      "parameter": "power",
+      "value": 0.25,
+      "bpb": 1.4269690198220861
+    },
+    {
+      "iteration": 1,
+      "parameter": "power",
+      "value": 0.5,
+      "bpb": 1.4242745179354335
+    },
+    {
+      "iteration": 1,
+      "parameter": "power",
+      "value": 1.0,
+      "bpb": 1.4223517299653015
+    },
+    {
+      "iteration": 1,
+      "parameter": "power",
+      "value": 2.0,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "power",
+      "value": 3.0,
+      "bpb": 1.421745948102728
+    },
+    {
+      "iteration": 1,
+      "parameter": "power",
+      "value": 4.0,
+      "bpb": 1.4218690786857893
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.0,
+      "bpb": 1.4229447723490305
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.05,
+      "bpb": 1.4219459244188015
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.1,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.15000000000000002,
+      "bpb": 1.421757089864026
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.2,
+      "bpb": 1.4220011829388761
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.25,
+      "bpb": 1.422394494561747
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.30000000000000004,
+      "bpb": 1.4229190400713505
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.35000000000000003,
+      "bpb": 1.4235686827703171
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy2",
+      "value": 0.4,
+      "bpb": 1.4243449577237772
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.0,
+      "bpb": 1.4229947405245431
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.05,
+      "bpb": 1.422180644988598
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.1,
+      "bpb": 1.4218559197730258
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.15000000000000002,
+      "bpb": 1.421721143778826
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.2,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.25,
+      "bpb": 1.4217736780190158
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.30000000000000004,
+      "bpb": 1.4219172250804222
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.35000000000000003,
+      "bpb": 1.4221279705925924
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.4,
+      "bpb": 1.4224043102317994
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.45,
+      "bpb": 1.4227481989388127
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy3",
+      "value": 0.5,
+      "bpb": 1.4231649002402276
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.0,
+      "bpb": 1.424062852781583
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.05,
+      "bpb": 1.4227974733363948
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.1,
+      "bpb": 1.4222258286891387
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.15000000000000002,
+      "bpb": 1.4219114094396217
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.2,
+      "bpb": 1.4217514429700238
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.25,
+      "bpb": 1.4217036444342634
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.30000000000000004,
+      "bpb": 1.421747422089597
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.35000000000000003,
+      "bpb": 1.4218725882052914
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.4,
+      "bpb": 1.4220751125205529
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.45,
+      "bpb": 1.4223554045130355
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.5,
+      "bpb": 1.4227177853544235
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.55,
+      "bpb": 1.4231707371687616
+    },
+    {
+      "iteration": 1,
+      "parameter": "copy4",
+      "value": 0.6000000000000001,
+      "bpb": 1.4237279155231184
+    }
+  ],
+  "search_seconds": 125.82747004198609,
+  "selected_on": "validation",
+  "contract_checks": "passed",
+  "parent_checkpoint": "runs/pipeline-local-wide-b512/adaptive/checkpoint.pt",
+  "parent_sha256": "9034340193823e11424b8e60ab1363f6a03238fe97cb046265d55496dbea1777",
+  "source_sha256": "dd24e373f6f69ac8199f34b1de9363b0cc4e683a7d69d186fa80c2f627437350"
+}

@@ -1,0 +1,1 @@
+{"vocab":2048,"width":256,"heads":4,"depth":8,"context":256,"dropout":0.15,"embedding_dropout":0.1,"attention_dropout":0.05,"positional_encoding":"rotary"}

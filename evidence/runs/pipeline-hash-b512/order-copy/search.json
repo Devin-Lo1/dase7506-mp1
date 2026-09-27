@@ -1,0 +1,72 @@
+{
+  "best": {
+    "copy_order_weights": [
+      0.0,
+      0.0,
+      0.2,
+      0.2,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "bpb": 1.5211990993083544
+  },
+  "constant_weight_results": [
+    {
+      "weight": 0.0,
+      "bpb": 1.5283998694129093
+    },
+    {
+      "weight": 0.1,
+      "bpb": 1.5228513204708662
+    },
+    {
+      "weight": 0.2,
+      "bpb": 1.5214262991666345
+    },
+    {
+      "weight": 0.3,
+      "bpb": 1.5217518200605968
+    },
+    {
+      "weight": 0.4,
+      "bpb": 1.523363474155852
+    },
+    {
+      "weight": 0.5,
+      "bpb": 1.5262199352419297
+    },
+    {
+      "weight": 0.6,
+      "bpb": 1.5305445915265827
+    },
+    {
+      "weight": 0.7,
+      "bpb": 1.5369272895742314
+    },
+    {
+      "weight": 0.8,
+      "bpb": 1.546819441287549
+    },
+    {
+      "weight": 0.9,
+      "bpb": 1.5649805917832413
+    }
+  ],
+  "group_target_counts": [
+    22356,
+    10829,
+    12585
+  ],
+  "groups": [
+    "2",
+    "3",
+    "4+"
+  ],
+  "search_seconds": 21.02058837498771,
+  "selected_on": "validation",
+  "parent_checkpoint": "runs/pipeline-hash-b512/cache/checkpoint.pt",
+  "parent_sha256": "589e1d0f0eca7b000bd9b629c9f6ddce5e6b67839566574b84dad03958c6408a",
+  "contract_checks": "passed",
+  "source_sha256": "334f2bcfd336727ef5e9a25b9b4ad509fac94f85c12966a9d5ae80257c8ffbc2"
+}

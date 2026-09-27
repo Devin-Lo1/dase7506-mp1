@@ -1,0 +1,8 @@
+{
+  "baseline_seconds": 5.894470707979053,
+  "prototype_seconds": 22.946314209024422,
+  "time_ratio": 3.892854056932225,
+  "peak_process_rss_gib": 2.49835205078125,
+  "inference_tensor_mib": 55.46456718444824,
+  "note": "Randomly initialized large network; prototype resource screen, not a quality result."
+}

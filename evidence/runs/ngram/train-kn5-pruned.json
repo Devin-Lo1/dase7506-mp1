@@ -1,0 +1,10 @@
+{
+  "training_tokens": 3613343,
+  "training_targets": 3613342,
+  "max_order": 5,
+  "minimum_count_high_orders": 2,
+  "source_sha256": "c58d555a94ada0882d1e8c0b3dc7ba68e1c269da5ad9e7a057300245d130c4e8",
+  "builder_sha256": "b5f5725d1fd8bd2e10ccb6a77ab60f8efe591897641f49da9fee7ae921b95f6c",
+  "seconds": 7.409828583011404,
+  "uncompressed_tensor_bytes": 15676742
+}

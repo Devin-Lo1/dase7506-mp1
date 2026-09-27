@@ -1,0 +1,32 @@
+{
+  "best": {
+    "checkpoint": "runs/local-average-search/early-0.25/checkpoint.pt",
+    "step_900_weight": 0.25,
+    "bpb": 1.445907272519332
+  },
+  "results": [
+    {
+      "checkpoint": "runs/pipeline-local-muon-b256/adaptive/checkpoint.pt",
+      "step_900_weight": 0.0,
+      "bpb": 1.4470695440953276
+    },
+    {
+      "checkpoint": "runs/local-average-search/early-0.25/checkpoint.pt",
+      "step_900_weight": 0.25,
+      "bpb": 1.445907272519332
+    },
+    {
+      "checkpoint": "runs/local-average-search/early-0.5/checkpoint.pt",
+      "step_900_weight": 0.5,
+      "bpb": 1.4472405850826104
+    }
+  ],
+  "selected_on": "validation",
+  "training_steps": 1200,
+  "additional_gradient_training_targets": 0,
+  "search_seconds": 63.98998162499629,
+  "parent_checkpoint": "runs/pipeline-local-muon-b256/adaptive/checkpoint.pt",
+  "parent_sha256": "bc0df788a76434cea3d3cb62239fa9ff3b619af46fb2530ac04a53e28cd2bb22",
+  "source_sha256": "5d6387c4c324a96fbbed480e34053bfd424f0e3a4e13b10a98ac3b4e6ea67161",
+  "note": "Same training lineage; mixture settings held fixed. Concurrent timings are not resource certification."
+}

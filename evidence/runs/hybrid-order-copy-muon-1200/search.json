@@ -1,0 +1,72 @@
+{
+  "best": {
+    "copy_order_weights": [
+      0.0,
+      0.0,
+      0.2,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "bpb": 1.4871831058016491
+  },
+  "constant_weight_results": [
+    {
+      "weight": 0.0,
+      "bpb": 1.4958545058429265
+    },
+    {
+      "weight": 0.1,
+      "bpb": 1.489367816916116
+    },
+    {
+      "weight": 0.2,
+      "bpb": 1.4875922270912192
+    },
+    {
+      "weight": 0.3,
+      "bpb": 1.4876945225466232
+    },
+    {
+      "weight": 0.4,
+      "bpb": 1.489140863864583
+    },
+    {
+      "weight": 0.5,
+      "bpb": 1.4918655395336395
+    },
+    {
+      "weight": 0.6,
+      "bpb": 1.4960804035373372
+    },
+    {
+      "weight": 0.7,
+      "bpb": 1.5023688979787009
+    },
+    {
+      "weight": 0.8,
+      "bpb": 1.5121785047878074
+    },
+    {
+      "weight": 0.9,
+      "bpb": 1.530266197087014
+    }
+  ],
+  "group_target_counts": [
+    22356,
+    10829,
+    12585
+  ],
+  "groups": [
+    "2",
+    "3",
+    "4+"
+  ],
+  "search_seconds": 130.16398091602605,
+  "selected_on": "validation",
+  "parent_checkpoint": "runs/hybrid-muon-1200/checkpoint.pt",
+  "parent_sha256": "73897f8f259fcdbebca3c00f8c31c7c1c6920236952e6cec1ee917cfc5edd52d",
+  "contract_checks": "passed",
+  "source_sha256": "334f2bcfd336727ef5e9a25b9b4ad509fac94f85c12966a9d5ae80257c8ffbc2"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "completed",
+  "previous_pipeline": "runs/pipeline-muon-b256/pipeline.json",
+  "stages": [
+    {
+      "name": "prototype-resources",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "measure_validation.py",
+        "--candidate",
+        "runs/local-followup-fused/prototype.pt",
+        "--output-dir",
+        "runs/local-followup-fused/prototype-resources"
+      ],
+      "exit_code": 0,
+      "seconds": 153.72132570896065,
+      "log": "runs/local-followup-fused/prototype-resources.log"
+    },
+    {
+      "name": "training",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "train.py",
+        "--implementation",
+        "student_local",
+        "--config",
+        "configs/student_local.json",
+        "--device",
+        "mps",
+        "--precision",
+        "bf16",
+        "--threads",
+        "4",
+        "--seed",
+        "17",
+        "--steps",
+        "1200",
+        "--batch-size",
+        "64",
+        "--accumulation-steps",
+        "4",
+        "--learning-rate",
+        "0.003",
+        "--warmup-steps",
+        "60",
+        "--optimizer",
+        "muon",
+        "--weight-decay",
+        "0.3",
+        "--log-every",
+        "25",
+        "--eval-every",
+        "300",
+        "--run-dir",
+        "runs/student-local-muon-b256-s17"
+      ],
+      "exit_code": 0,
+      "seconds": 4397.203359124949,
+      "log": "runs/local-followup-fused/training.log"
+    },
+    {
+      "name": "selection",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "finish_candidate.py",
+        "--training-dir",
+        "runs/student-local-muon-b256-s17",
+        "--output-dir",
+        "runs/pipeline-local-muon-b256",
+        "--counts",
+        "runs/ngram/train-kn5-full-trigram-packed.pt",
+        "--measure-resources"
+      ],
+      "exit_code": 0,
+      "seconds": 269.10241270798724,
+      "log": "runs/local-followup-fused/selection.log"
+    },
+    {
+      "name": "inventory",
+      "command": [
+        "/Users/devin/Devin \u7528\u6237\u6587\u4ef6\u5939/hku/dase7506/project/project1-small language model/MP1_student_starter/code/.venv/bin/python",
+        "collect_experiments.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.06244887504726648,
+      "log": "runs/local-followup-fused/inventory.log"
+    }
+  ]
+}
